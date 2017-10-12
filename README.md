@@ -21,3 +21,5 @@ Controls:
 
 Issues:
 - Sometimes crashes when selecting a puzzle from the main menu
+
+Gbatemp Thread: 
