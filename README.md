@@ -1,2 +1,2 @@
 # Sliding-Puzzle
-Sliding-Puzzle homebrew game for the 3DS, made with LövePotion.
+Sliding-Puzzle is a homebrew game made entirely in Lua with (test)[www.test.com]
