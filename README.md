@@ -1,5 +1,6 @@
 # Sliding-Puzzle
-Sliding-Puzzle is a homebrew game made entirely in Lua with [LövePotion](https://github.com/videah/LovePotion).
+Sliding-Puzzle is a homebrew game made mostly in Lua with [LövePotion](https://github.com/videah/LovePotion).
+And partially with java, for the setup of custom puzzles.
 
 Features:
 - 3x3 Slide-Puzzle (Skull Kid Theme)
