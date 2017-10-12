@@ -16,7 +16,7 @@ Features:
 
 Controls:
 - 'D-Pad' controls cursor movement on the main menu, when paused, and in every puzzle
-- 'Start' pauses the puzzle current puzzle, and switches to the pause menu on the main menu
+- 'Start' pauses the current puzzle, and switches to the pause menu on the main menu
 - 'A' selects an option when in a menu, and moves a puzzle piece (If it can be moved)
 
 Issues:
