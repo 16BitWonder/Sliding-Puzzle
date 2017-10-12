@@ -11,6 +11,7 @@ Features:
 - Debug 3x3 Slide-Puzzle (Can be enabled from main menu with L+R+B)
 - All puzzle layouts randomized (Every time)
 - Timer to keep track of time (On every puzzle)
+- Jar executable in each of the custom puzzle folders to set up a custom theme (Folders Custom3x3, Custom4x4, and Custom5x5)
 
 Controls:
 - 'D-Pad' controls cursor movement on the main menu, when paused, and in every puzzle
