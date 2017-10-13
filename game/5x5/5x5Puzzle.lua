@@ -907,8 +907,8 @@ end
 --Returns a random spot that is not yet being used
 function randomSpot()
 
-	unique = false
-	randomTemp = 0
+	local unique = false
+	local randomTemp = 0
 
 	while (unique == false) do
 	
@@ -973,9 +973,9 @@ end
 --Checks if the current layout is solvable
 function isSolvable()
 	
-	inversions = 0
+	local inversions = 0
 	
-	array = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,}
+	local array = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,}
 	
 	array[one_val] = 1
 	array[two_val] = 2
