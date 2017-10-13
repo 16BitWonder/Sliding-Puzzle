@@ -120,7 +120,7 @@ function love.keypressed(key)
 		end
 	end
 	
-	if key == 'dup' then
+	if key == 'up' then
 		if (paused) then
 			if (pauseCursor == 1) then
 				pauseCursor = 3
@@ -142,7 +142,7 @@ function love.keypressed(key)
 		end
 	end
 	
-	if key == 'ddown' then
+	if key == 'down' then
 		if (paused) then
 			if (pauseCursor == 3) then
 				pauseCursor = 1
