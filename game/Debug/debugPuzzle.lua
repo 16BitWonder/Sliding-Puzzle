@@ -16,7 +16,7 @@
 --=================================================================================--
 	
 	--Load 8BitOperator font
-	font = love.graphics.newFont("Common/eightbit.ttf", 10)
+	font = love.graphics.newFont("Common/eightbit")
 	love.graphics.setFont(font)
 	
 	--Set up timer
@@ -186,7 +186,7 @@ function love.draw()
 		totalTime = 999.99
 	end
 	
-	love.graphics.print(totalTime, 18, 14) --Print out current time
+	love.graphics.print(totalTime, 18, 12) --Print out current time
 	
 	--Draw the first 8 images (leave 9 alone until the puzzle is complete)
 	love.graphics.draw(one, one_x, one_y)
@@ -249,7 +249,7 @@ function love.keypressed(key)
 	end
 	
 	--Right movement
-	if key == 'dright' then
+	if key == 'right' then
 	
 		if (paused == false) then
 			if ((cursor_val < 3) or ((cursor_val > 3) and (cursor_val < 6)) or ((cursor_val > 6) and (cursor_val < 9))) then
@@ -262,7 +262,7 @@ function love.keypressed(key)
 	end
 	
 	--Left movement
-	if key == 'dleft' then
+	if key == 'left' then
 	
 		if (paused == false) then
 			if (((cursor_val > 1) and (cursor_val < 4)) or ((cursor_val > 4) and (cursor_val < 7)) or ((cursor_val > 7) and (cursor_val < 10))) then
@@ -275,7 +275,7 @@ function love.keypressed(key)
 	end
 	
 	--Up movement
-	if key == 'dup' then
+	if key == 'up' then
 	
 		if (paused == false) then
 			if cursor_val > 3 then
@@ -296,7 +296,7 @@ function love.keypressed(key)
 	end
 	
 	--Down movement
-	if key == 'ddown' then
+	if key == 'down' then
 	
 		if (paused == false) then
 			if cursor_val < 7 then
