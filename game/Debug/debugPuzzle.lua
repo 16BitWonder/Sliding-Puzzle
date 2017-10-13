@@ -628,8 +628,8 @@ end
 --Returns a random spot that is not yet being used
 function randomSpot()
 
-	unique = false
-	randomTemp = 0
+	local unique = false
+	local randomTemp = 0
 
 	while (unique == false) do
 	
