@@ -20,6 +20,6 @@ Controls:
 - 'A' selects an option when in a menu, and moves a puzzle piece (If it can be moved)
 
 Issues:
-- Sometimes crashes when selecting a puzzle from the main menu
+- Sometimes crashes when selecting a puzzle from the main menu (Both 3DSX and CIA)
 
 Gbatemp Thread: https://gbatemp.net/threads/release-sliding-puzzle.486657/
