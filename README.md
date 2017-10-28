@@ -22,4 +22,4 @@ Controls:
 Issues:
 - Sometimes crashes when selecting a puzzle from the main menu
 
-Gbatemp Thread: https://gbatemp.net/threads/release-sliding-puzzle.486657/
+Gbatemp Thread: https: //gbatemp. net/threads/release-sliding-puzzle.486657/
